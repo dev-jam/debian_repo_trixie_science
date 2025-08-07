@@ -1,0 +1,362 @@
+Package: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 270
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14)
+Filename: ./libjpeg8_8d1-2.1_amd64.deb
+Size: 119520
+MD5sum: df015d5750072beac4f3b92665e1654d
+SHA1: da8175ecfa25381bd2357ab5475f86a8faa04a05
+SHA256: 12ea9e3327d6f152f08ff63a1e96a8d9b7389b4f12a27d3a8197c2b8c4fbb0cb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Independent JPEG Group's JPEG runtime library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the shared library.
+
+Package: libjpeg8-dbg
+Source: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 889
+Depends: libjpeg8 (= 8d1-2.1)
+Replaces: libjpeg62-dbg, libjpeg7-dbg
+Provides: libjpeg-dbg
+Filename: ./libjpeg8-dbg_8d1-2.1_amd64.deb
+Size: 262564
+MD5sum: c31a815e1cabbcd3dc0e0441656d31d2
+SHA1: 157e81d32b71081d749666370fb5aaf71a7e7e90
+SHA256: 2ff5dcda9909824d9b9bfe4d36c858f56c0018fff015441a628828588a8f2365
+Section: debug
+Priority: extra
+Description: Development files for the IJG JPEG library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the debugging symbols for libjpeg.
+
+Package: libjpeg8-dev
+Source: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 495
+Depends: libjpeg8 (= 8d1-2.1), libc-dev
+Conflicts: libjpeg62-dev, libjpeg7-dev
+Replaces: libjpeg62-dev, libjpeg7-dev
+Filename: ./libjpeg8-dev_8d1-2.1_amd64.deb
+Size: 217188
+MD5sum: 7b9abbee4fc35648439591292a391b29
+SHA1: 1b9c658baf912dec6e27048657e248f273432251
+SHA256: c04c02601ddebd2a0e1a44396b71aee142bc29598336e5ca8f337db77000b3fb
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Development files for the IJG JPEG library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the static library, headers and documentation.
+
+Package: matlab-psychtoolbox-3
+Source: psychtoolbox-3-nonfree
+Version: 3.0.19.14-2~nd130+1
+Architecture: all
+Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
+Installed-Size: 19
+Depends: neurodebian-popularity-contest, matlab-psychtoolbox-3-nonfree (= 3.0.19.14-2~nd130+1), psychtoolbox-3-common (>= 3.0.19.14-2~nd130+1.dfsg)
+Recommends: matlab-support
+Filename: ./matlab-psychtoolbox-3_3.0.19.14-2~nd130+1_all.deb
+Size: 4124
+MD5sum: f0e50e78e93d0080e830e8a6c506f9e6
+SHA1: 24abebcfaefc8af6e1418d209052e00c271d82e7
+SHA256: 7125863c20531b66d95f3a9b9401a5056462cc1d302d9c28028b0d3576775da5
+Section: non-free/science
+Priority: extra
+Homepage: http://psychtoolbox.org
+Description: toolbox for vision research -- Matlab bindings
+ Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
+ GNU/Octave functions for vision research. It makes it easy to
+ synthesize and show accurately controlled visual and auditory stimuli
+ and interact with the observer.
+ .
+ The Psychophysics Toolbox interfaces between Matlab or Octave and the
+ computer hardware. The Psychtoolbox's core routines provide access to
+ the display frame buffer and color lookup table, allow
+ synchronization with the vertical retrace, support millisecond
+ timing, allow access to OpenGL commands, and facilitate the
+ collection of observer responses. Ancillary routines support common
+ needs like color space transformations and the QUEST threshold
+ seeking algorithm.
+ .
+ This package exposes PTB-3 within Matlab environment.  It also provides
+ a convenience script ptb3-matlab to simplify running psychtoolbox in matlab.
+ .
+ See also http://www.psychtoolbox.org/UsingPsychtoolboxOnUbuntu for
+ additional information about systems tune-up and initial configuration.
+ .
+ For now it relies on -nonfree package providing binary builds of all
+ PTB-3 bindings for Matlab.
+
+Package: matlab-psychtoolbox-3-nonfree
+Source: psychtoolbox-3-nonfree
+Version: 3.0.19.14-2~nd130+1
+Architecture: amd64
+Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
+Installed-Size: 6380
+Depends: neurodebian-popularity-contest, psychtoolbox-3-lib (>= 3.0.19.14-2~nd130+1.dfsg), psychtoolbox-3-common (>= 3.0.19.14-2~nd130+1.dfsg), libx11-6, libxext6, libxfixes3, libxi6, libglut3.12 | freeglut3, libgl1 | libgl1-mesa-glx, libxmu6, libxpm4, libdc1394-25
+Recommends: libasound2, libfreenect0.5, libglib2.0-0, libglu1-mesa, libopenal1, libpciaccess0, libusb-1.0-0 (>= 2:1.0.9~), libxml2, libxrandr2, libxxf86vm1
+Filename: ./matlab-psychtoolbox-3-nonfree_3.0.19.14-2~nd130+1_amd64.deb
+Size: 2153414
+MD5sum: ac11533339c46c21ec747d2e5798c96f
+SHA1: 8eb163db5f2c020940dd007928402a83eea132dc
+SHA256: 106de5770b8a55a827dddc5e998d1691d22e14deb7b4888b0248356e4d241951
+Section: non-free/science
+Priority: extra
+Homepage: http://psychtoolbox.org
+Description: toolbox for vision research -- Matlab binary blobs
+ Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
+ GNU/Octave functions for vision research. It makes it easy to
+ synthesize and show accurately controlled visual and auditory stimuli
+ and interact with the observer.
+ .
+ The Psychophysics Toolbox interfaces between Matlab or Octave and the
+ computer hardware. The Psychtoolbox's core routines provide access to
+ the display frame buffer and color lookup table, allow
+ synchronization with the vertical retrace, support millisecond
+ timing, allow access to OpenGL commands, and facilitate the
+ collection of observer responses. Ancillary routines support common
+ needs like color space transformations and the QUEST threshold
+ seeking algorithm.
+ .
+ This package contains binary builds for Datapixx and Eyelink bindings for
+ Matlab built/supported/distributed by upstream.
+
+Package: multiarch-support
+Source: glibc
+Version: 2.28-10
+Architecture: amd64
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 234
+Depends: libc6 (>= 2.3.6-2)
+Filename: ./multiarch-support_2.28-10_amd64.deb
+Size: 215080
+MD5sum: 4d7679dae0409b7bf18c13f4e05974ae
+SHA1: dd3d1163f82e601bfd9007561ea6f9b2007a7a23
+SHA256: 41afb694b49184f5c84b0df610cc667de9c95c8a85baf515da7fabb942f4effd
+Section: oldlibs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: Transitional package to ensure multiarch compatibility
+ This is a transitional package used to ensure multiarch support is present
+ in ld.so before unpacking libraries to the multiarch directories.  It can
+ be removed once nothing on the system depends on it.
+
+Package: octave-psychtoolbox-3-nonfree
+Source: psychtoolbox-3-nonfree
+Version: 3.0.19.14-2~nd130+1
+Architecture: amd64
+Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
+Installed-Size: 799
+Depends: neurodebian-popularity-contest, octave-psychtoolbox-3 (>= 3.0.19.14-2~nd130+1.dfsg), psychtoolbox-3-common (>= 3.0.19.14-2~nd130+1.dfsg)
+Filename: ./octave-psychtoolbox-3-nonfree_3.0.19.14-2~nd130+1_amd64.deb
+Size: 285158
+MD5sum: 56e8e47400e00655cb30658ede702e32
+SHA1: fb3e2d2ece0fcf296a269e53ea521a5ad324b48c
+SHA256: d5cca00c7ad3100a16b29e4ae9932d5cbfb6d183f719fa807384494032e190ea
+Section: non-free/science
+Priority: extra
+Homepage: http://psychtoolbox.org
+Description: toolbox for vision research -- Octave binary blobs
+ Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
+ GNU/Octave functions for vision research. It makes it easy to
+ synthesize and show accurately controlled visual and auditory stimuli
+ and interact with the observer.
+ .
+ The Psychophysics Toolbox interfaces between Matlab or Octave and the
+ computer hardware. The Psychtoolbox's core routines provide access to
+ the display frame buffer and color lookup table, allow
+ synchronization with the vertical retrace, support millisecond
+ timing, allow access to OpenGL commands, and facilitate the
+ collection of observer responses. Ancillary routines support common
+ needs like color space transformations and the QUEST threshold
+ seeking algorithm.
+ .
+ This package contains binary builds for Datapixx and Eyelink bindings for
+ Octave built/supported/distributed by upstream.
+
+Package: python3-alsaaudio
+Version: 0:0.11.0-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 210
+Depends: python3 (<< 3.14), python3 (>= 3.13~), python3:any
+Filename: ./python3-alsaaudio_0.11.0-1~w2d0_amd64.deb
+Size: 59796
+MD5sum: 1793295190e906b0fbf89192cae61197
+SHA1: 9527af0577a07c1b81d0ab089942befd724866fe
+SHA256: b78bb02ce62b518ae75ba19a2cbc8c470685995a9ae45a645928bb51645c44b8
+Section: python
+Priority: optional
+Homepage: http://larsimmisch.github.io/pyalsaaudio/
+Description: ALSA bindings
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-bioread
+Version: 0:3.0.1-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 205
+Depends: python3-docopt (>= 0.6.1), python3-numpy, python3:any
+Filename: ./python3-bioread_3.0.1-1~w2d0_all.deb
+Size: 40648
+MD5sum: 0cd8e520cd4fc726582ea415fbaac37c
+SHA1: b527f3d22c9c59b8bb34f0fe793869528784fb9a
+SHA256: f7905d33648d708e812ee63d92b9eeb3699b3dcf0aa5e8abd71919298c8690f9
+Section: python
+Priority: optional
+Homepage: https://github.com/uwmadison-chm/bioread
+Description: Utilities to read BIOPAC AcqKnowledge files
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-i2mc
+Version: 0:2.2.6-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 100
+Depends: python3-matplotlib, python3-numpy, python3-pandas, python3-scipy, python3:any
+Filename: ./python3-i2mc_2.2.6-1~w2d0_all.deb
+Size: 21416
+MD5sum: 016db3a423941fdc5906d3e1245dd319
+SHA1: 7f579b684e8c7409faede9b52052ce090618e4a9
+SHA256: 75850f73cabdfe05c7de0023f570dfe17d2a41124d49309a0d1409f089e3a91e
+Section: python
+Priority: optional
+Homepage: https://github.com/dcnieho/I2MC_Python
+Description: Noise-robust fixation classification (I2MC).
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-pipewire
+Version: 0:0.2.3-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 81
+Depends: python3 (>= 3.7~), python3:any
+Filename: ./python3-pipewire_0.2.3-1~w2d0_all.deb
+Size: 15736
+MD5sum: ccd7357dc418e9d295d0d0e86e598532
+SHA1: 2f4572851f8501bf9926160a3c5abe3e72518722
+SHA256: 301a01bf83785c68ea6eb12db3dd453dd5b7fcec9901b23def082f5563413217
+Section: python
+Priority: optional
+Description: Python controller, player and recorder via pipewire's commands
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-psychtoolbox
+Version: 0:3.0.19.14-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 6454
+Depends: python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
+Filename: ./python3-psychtoolbox_3.0.19.14-1~w2d0_amd64.deb
+Size: 1646400
+MD5sum: 0948aed15f81b0c5ec4fcf9d9a10d748
+SHA1: 116189a82a637ca85d83a463ffc0526f0ba2645e
+SHA256: 4ba5522793cfc9f118d49096dd899d350a1a947bb94a2cf16e3ee438cd009d1a
+Section: python
+Priority: optional
+Homepage: http://psychtoolbox.org
+Description: Pieces of Psychtoolbox-3 ported to CPython.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-rusocsci
+Version: 0:0.9.2-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 116
+Depends: python3-serial, python3:any
+Filename: ./python3-rusocsci_0.9.2-1~w2d0_all.deb
+Size: 22076
+MD5sum: 120bb45b799607ce469ef7fa5bb4e889
+SHA1: 0899bb79b22c4c89f47f0cfe98a65c784752b282
+SHA256: d2f379deb318947947f174139452fcb9ee79d9210daae7b2ff712d77cd03b682
+Section: python
+Priority: optional
+Homepage: https://www.socsci.ru.nl/wilberth/python/rusocsci.html
+Description: Support package for Radboud University Nijmegen, Faculty of Social Sciences hardware, with PsychoPy-like API.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-sounddevice
+Version: 0:0.5.1-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 145
+Depends: python3-cffi (>= 1.0), python3:any
+Filename: ./python3-sounddevice_0.5.1-1~w2d0_all.deb
+Size: 28992
+MD5sum: c9198e48689b3cf176c6e5fc8f948764
+SHA1: 16c6a4162491c2f2ac17cf9eb3d64955ae6e8d24
+SHA256: cb6e0bea38fb9dbd8ca01c4b194c2305f86180279550307583c3638474f3bd95
+Section: python
+Priority: optional
+Homepage: http://python-sounddevice.readthedocs.io/
+Description: Play and Record Sound with Python
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-sr-research-pylink
+Version: 0:2.2.183.0-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 13242
+Depends: python3 (<< 3.14), python3 (>= 3.13~), python3:any
+Filename: ./python3-sr-research-pylink_2.2.183.0-1~w2d0_amd64.deb
+Size: 587144
+MD5sum: 013cc8facbaa0a12ca44772f2927160e
+SHA1: 5c91901aa7fe4ae82f2e7a70c230bdc58282add8
+SHA256: 33ab726f2fe36424bd5751c8dddb48bf5a51ea8c57acd385381273062d729ab0
+Section: python
+Priority: optional
+Description: None
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-titta
+Version: 0:2.1.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 233
+Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy, python3-websocket, python3:any
+Filename: ./python3-titta_2.1.0-1~w2d0_all.deb
+Size: 39940
+MD5sum: e78c77c054ed251b3e11f7f4696572ab
+SHA1: a648baffbc6e9e4f7c277eefc0673f6fbbde7fc8
+SHA256: 40545a1f9c594dcb04b3012e654af55d7fa725cc9e65fe97ebe652e118f217bc
+Section: python
+Priority: optional
+Homepage: https://github.com/marcus-nystrom/Titta
+Description: Titta is a toolbox for using eye trackers from Tobii with Python, specifically offering integration with PsychoPy.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-tittapy
+Version: 0:1.4.2-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 23531
+Depends: python3 (<< 3.14), python3 (>= 3.13~), python3-numpy, python3:any
+Filename: ./python3-tittapy_1.4.2-1~w2d0_amd64.deb
+Size: 5628040
+MD5sum: a259a3acac8e45130228a9b8b28e8cc3
+SHA1: 2b133a889a2f5ebe98d4b6031b374241bcd0d6a4
+SHA256: aad49edd41060c74cd4deabedd25ba00f26a25f777ab0e21044a40d17c4041f3
+Section: python
+Priority: optional
+Homepage: https://github.com/dcnieho/Titta
+Description: Interface to Tobii eye trackers using Tobii Pro SDK
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
