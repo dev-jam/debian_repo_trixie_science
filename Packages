@@ -307,16 +307,16 @@ Description: An OpenSesame Plug-in for collecting button responses, audio detect
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-screenshot
-Version: 0:0.5.0-1~w2d0
+Version: 0:0.6.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 69
-Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-opensesame-plugin-screenshot_0.5.0-1~w2d0_all.deb
-Size: 18760
-MD5sum: 33e29f7731ee3dcde36e6bf27054e9cd
-SHA1: 976a41eae91695f95bb1a72913e21f62035f7e31
-SHA256: a7b5b09fc2c06e7159336b06b19d06695f3553750bf51d16e9c5aa8c7be948c3
+Installed-Size: 70
+Depends: python3 (>= 3.7~), python3-screeninfo, python3:any
+Filename: ./python3-opensesame-plugin-screenshot_0.6.1-1~w2d0_all.deb
+Size: 18956
+MD5sum: a3c8f658760b2ab358750f8096b4a2b5
+SHA1: c52702f6c3438c9df9f491e9a420b89b10b477c4
+SHA256: 5e3101781748664f18fab79ad4c2e6def712b960edc1e211e089f367f87bce89
 Section: python
 Priority: optional
 Description: An OpenSesame Plugin for saving screenshots of stimuli and other screens within an experiment.
