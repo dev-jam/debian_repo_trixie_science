@@ -243,16 +243,16 @@ Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-audio-low-latency
-Version: 0:10.9.0-1~w2d0
+Version: 0:10.9.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 392
 Depends: python3 (>= 3.7~), python3-alsaaudio (>= 0.8.4), python3-numpy, python3-pyaudio, python3-pygame (>= 2.0.0), python3-sounddevice, python3:any
-Filename: ./python3-opensesame-plugin-audio-low-latency_10.9.0-1~w2d0_all.deb
-Size: 85652
-MD5sum: 3dc7008a322f393894eaf41f2637d171
-SHA1: 18cd2882a30b0387ccbfe9da31e2a35a9c494c16
-SHA256: 047375c9525311d01b22ec72fb885ca9389f576456af4082b659af62c76e046e
+Filename: ./python3-opensesame-plugin-audio-low-latency_10.9.1-1~w2d0_all.deb
+Size: 85604
+MD5sum: 334c660057044b7e0d8c504bf422e5e3
+SHA1: 01c9f091d823d4e76d9ef299a8453f07fd44d38f
+SHA256: 40dd966134f3706f649d32ac072bb7a639df292f676dc99d3d8fef56de1ecc20
 Section: python
 Priority: optional
 Description: An OpenSesame Plug-in for playing and recording audio files with low latency on Linux
@@ -291,16 +291,16 @@ Description: An OpenSesame Plug-in for sending stimulus synchronization triggers
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-radboudbox
-Version: 0:4.5.0-1~w2d0
+Version: 0:4.6.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 122
 Depends: python3 (>= 3.7~), python3-rusocsci, python3:any
-Filename: ./python3-opensesame-plugin-radboudbox_4.5.0-1~w2d0_all.deb
-Size: 34724
-MD5sum: a9e946c985a5eccd2e5710185f740247
-SHA1: 8456fda99ad5ebfc95ea39497054bcf1166eaab4
-SHA256: 80f011e88a83ba60cd090ac6c6b035954702c9fd03db55c1cd39fb6cf1f8bf70
+Filename: ./python3-opensesame-plugin-radboudbox_4.6.0-1~w2d0_all.deb
+Size: 34720
+MD5sum: 745f1f313528d8c4aabee6d424590791
+SHA1: 718f0b8536a7cd8f66f11f4f1504a77181311396
+SHA256: 0973311c808b2f69661fc889cb22a8fba486ad3fce8f8fb13072211957fc1679
 Section: python
 Priority: optional
 Description: An OpenSesame Plug-in for collecting button responses, audio detection, voice key and sending stimulus synchronization triggers with the Radboud Buttonbox to data acquisition systems
