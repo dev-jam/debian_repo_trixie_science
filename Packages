@@ -226,16 +226,16 @@ Description: Utilities to read BIOPAC AcqKnowledge files
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-i2mc
-Version: 0:2.2.6-2~w2d0
+Version: 0:2.2.7-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 100
+Installed-Size: 101
 Depends: python3-matplotlib, python3-numpy, python3-pandas, python3-scipy, python3:any
-Filename: ./python3-i2mc_2.2.6-2~w2d0_all.deb
-Size: 21416
-MD5sum: 8e74c54f218d7e75cc1ef8bb29ef616e
-SHA1: 1aae8f315a60d811b8b58405309fb381ad1fa96f
-SHA256: 256ab23c4157ed66bc464168415dff71adfd3616a0752cbf183b5930c164aab2
+Filename: ./python3-i2mc_2.2.7-1~w2d0_all.deb
+Size: 21668
+MD5sum: dbe4cd6f5cffff7909a84e6054877013
+SHA1: a99ca7b90f15f9fb5049a0c9881323573f5e9263
+SHA256: 3ed15436672aa86f13d9d952fde3558d7fe21b76d3b053b005cd095431997855
 Section: python
 Priority: optional
 Homepage: https://github.com/dcnieho/I2MC_Python
@@ -389,16 +389,16 @@ Description: Support package for Radboud University Nijmegen, Faculty of Social 
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-sounddevice
-Version: 0:0.5.2-2~w2d0
+Version: 0:0.5.3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 146
+Installed-Size: 147
 Depends: python3-cffi (>= 1.0), python3:any
-Filename: ./python3-sounddevice_0.5.2-2~w2d0_all.deb
-Size: 29200
-MD5sum: 023d9244f71f6bbbd4712ccc7b090617
-SHA1: a20daf06de798d18cee5fcea276ba4369ea82c15
-SHA256: 72e68f8660fe83ec127523cdaaab6cfe09a737cd66d2b96a8514152ee831750d
+Filename: ./python3-sounddevice_0.5.3-1~w2d0_all.deb
+Size: 29360
+MD5sum: 77109277eefc29d41e4994a735cfd34f
+SHA1: 0629d23dcc13982785aad0afabc0ab1dbb019a3b
+SHA256: b27ede27cbc65aef4adbfa864127bf8fa598e11a6a038a50c45828b8552f7e7f
 Section: python
 Priority: optional
 Homepage: http://python-sounddevice.readthedocs.io/
