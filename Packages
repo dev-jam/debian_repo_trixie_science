@@ -290,16 +290,16 @@ Description: Utilities to read BIOPAC AcqKnowledge files
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-i2mc
-Version: 0:2.2.7-1~w2d0
+Version: 0:2.2.8-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 101
+Installed-Size: 102
 Depends: python3-matplotlib, python3-numpy, python3-pandas, python3-scipy, python3:any
-Filename: ./python3-i2mc_2.2.7-1~w2d0_all.deb
-Size: 21668
-MD5sum: dbe4cd6f5cffff7909a84e6054877013
-SHA1: a99ca7b90f15f9fb5049a0c9881323573f5e9263
-SHA256: 3ed15436672aa86f13d9d952fde3558d7fe21b76d3b053b005cd095431997855
+Filename: ./python3-i2mc_2.2.8-1~w2d0_all.deb
+Size: 21724
+MD5sum: 7d012b168a7d974ea9ac5cdb4ebce2fa
+SHA1: a41cd877016cc55697daa7ea19b9dd689a64a9c9
+SHA256: b311e02c3f148c50b1ba17cfb1cae8e2d58c8717ddbdb1886c6d9945318aa6db
 Section: python
 Priority: optional
 Homepage: https://github.com/dcnieho/I2MC_Python
@@ -453,21 +453,27 @@ Description: Support package for Radboud University Nijmegen, Faculty of Social 
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-sounddevice
-Version: 0:0.5.3-1~w2d0
+Source: python-sounddevice
+Version: 0.5.5-1~bpo13+1
 Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 147
-Depends: python3-cffi (>= 1.0), python3:any
-Filename: ./python3-sounddevice_0.5.3-1~w2d0_all.deb
-Size: 29360
-MD5sum: 77109277eefc29d41e4994a735cfd34f
-SHA1: 0629d23dcc13982785aad0afabc0ab1dbb019a3b
-SHA256: b27ede27cbc65aef4adbfa864127bf8fa598e11a6a038a50c45828b8552f7e7f
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 146
+Depends: pypy3-cffi-backend-api-min (<= 10241), pypy3-cffi-backend-api-max (>= 10241), python3:any, libportaudio2
+Recommends: python3-numpy
+Filename: ./python3-sounddevice_0.5.5-1~bpo13+1_all.deb
+Size: 29844
+MD5sum: a858acd64e73cb5145510e5f9479fc73
+SHA1: ff7235131a45f35bd47b70632bef190f6a9acd07
+SHA256: 2738906050a935acb0ba4170326e96922f492c618dec2c45fa06c0d4d0cc0705
 Section: python
 Priority: optional
-Homepage: http://python-sounddevice.readthedocs.io/
-Description: Play and Record Sound with Python
- This package was automatically generated from the upstream wheel by wheel2deb.
+Homepage: https://github.com/spatialaudio/python-sounddevice
+Description: Play and Record Sound with Python - Python 3.x
+ This Python module provides bindings for the PortAudio library and a few
+ convenience functions to play and record NumPy arrays containing audio
+ signals.
+ .
+ This package contains the Python 3 module.
 
 Package: python3-sr-research-pylink
 Version: 0:2.2.183.0-1~w2d0
@@ -486,16 +492,16 @@ Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-titta
-Version: 0:2.2.1-1~w2d0
+Version: 0:2.2.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 234
 Depends: python3-h5py, python3-numpy, python3-pandas, python3-tittapy (>= 2), python3-websocket, python3:any
-Filename: ./python3-titta_2.2.1-1~w2d0_all.deb
-Size: 40140
-MD5sum: 59be87d6f13b48ee3efa306b6a6a8971
-SHA1: 642c92d41e4d757c12c183923062d69ffd3bfd71
-SHA256: 35a9f4126da78f4dd22604259bb5f4d8087a8c7afb03883c1a2155b53c61adb3
+Filename: ./python3-titta_2.2.2-1~w2d0_all.deb
+Size: 40124
+MD5sum: e2688dbc243a14d41c323af05f9ec740
+SHA1: 4ad2d5816eaed99fb6d823528e7cb0bedb5c65e5
+SHA256: 62de5b2a8de8249700e20e2dd0e4e897c002340733fd748bf3bb05d21a4f71a3
 Section: python
 Priority: optional
 Homepage: https://github.com/marcus-nystrom/Titta
