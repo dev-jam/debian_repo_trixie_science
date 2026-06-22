@@ -508,6 +508,23 @@ Homepage: https://github.com/marcus-nystrom/Titta
 Description: Titta is a toolbox for using eye trackers from Tobii with Python, specifically offering integration with PsychoPy.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-tittalslpy
+Version: 0:2.0.0-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 31096
+Depends: python3 (<< 3.14), python3 (>= 3.13~), python3-numpy, python3-tittapy (<< 2.1), python3:any
+Filename: ./python3-tittalslpy_2.0.0-1~w2d0_amd64.deb
+Size: 7835464
+MD5sum: 358c4149bf226ad89d512431b7ae77a8
+SHA1: dfc2fc8626d9ed1a24e03de04d705a477a29a982
+SHA256: fde219eecdc09d874da92457d1c6f3572a7f27b304fcb83b6f17b4589b52a18d
+Section: python
+Priority: optional
+Homepage: https://github.com/dcnieho/Titta
+Description: Interface for streaming and receiving Tobii eye tracker data using Lab Streaming Layer
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-tittapy
 Version: 0:2.0.0-1~w2d0
 Architecture: amd64
