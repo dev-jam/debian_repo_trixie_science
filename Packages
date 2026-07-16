@@ -306,6 +306,22 @@ Homepage: https://github.com/dcnieho/I2MC_Python
 Description: Noise-robust fixation classification (I2MC).
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-opensesame-eyelink-coregraphics
+Version: 0:2.2.592.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 98
+Depends: python3 (>= 3.9~), python3-opensesame (>= 4.0.0~a0), python3-sr-research-pylink (>= 2.2.0), python3:any
+Filename: ./python3-opensesame-eyelink-coregraphics_2.2.592.0-1~w2d0_all.deb
+Size: 47376
+MD5sum: e17fcaaf65fc42c80e96ee7e7ae90465
+SHA1: 472ed409e808e3fa738d4dba21da7d008a52b66a
+SHA256: 860c4d9418584da9dde7d45c61361a836aa08bda9bfa05bbc35fcbdbf402917c
+Section: python
+Priority: optional
+Description: Implementation of the EyeLink core graphics set of handlers for OpenSesame 4.0
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-opensesame-plugin-audio-low-latency
 Version: 0:10.9.1-1~w2d0
 Architecture: all
@@ -336,6 +352,22 @@ SHA256: abea3cb1c9b18f753f8c89883934d18f50623c9fecc44e15a23ed10cccc1dea8
 Section: python
 Priority: optional
 Description: An OpenSesame Plug-in for managing/executing multiple OpenSesame experiments.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-opensesame-plugin-eyelink
+Version: 0:2.2.592.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 181
+Depends: python3 (>= 3.9~), python3-opensesame (>= 4.0.0~a0), python3-opensesame-eyelink-coregraphics (>= 2.2.592.0), python3-sr-research-pylink (>= 2.2.0), python3:any
+Filename: ./python3-opensesame-plugin-eyelink_2.2.592.0-1~w2d0_all.deb
+Size: 34376
+MD5sum: a3a15948224c744e02bdb3fd7d938fb4
+SHA1: 16a8fa812454122b5dd4820e233bf108b1f5de02
+SHA256: dd82ff30b9780ceb293560f302f5962b9e802614f612103b45d28f068daf3395
+Section: python
+Priority: optional
+Description: Extension package for OpenSesame which adds support for EyeLink devices by SR Research.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-parallel-port-trigger
@@ -433,6 +465,22 @@ Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
 Description: Pieces of Psychtoolbox-3 ported to CPython.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-pygame-eyelink-coregraphics
+Version: 0:2.2.596.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 96
+Depends: python3 (>= 3.9~), python3-pygame (>= 2.0.0), python3-sr-research-pylink (>= 2.2.0), python3:any
+Filename: ./python3-pygame-eyelink-coregraphics_2.2.596.0-1~w2d0_all.deb
+Size: 46404
+MD5sum: e7ff9771afe96d17519a6d94750cda79
+SHA1: 293447473b4315361c1ecab5ec1e3d328dde10e4
+SHA256: a39f2e7066046ced87db18f65baa9cf9afd361626f510e110e9bea2d1154c309
+Section: python
+Priority: optional
+Description: Implementation of the EyeLink core graphics set of handlers for Pygame
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-rusocsci
