@@ -476,19 +476,20 @@ Description: Play and Record Sound with Python - Python 3.x
  This package contains the Python 3 module.
 
 Package: python3-sr-research-pylink
-Version: 0:2.2.183.0-1~w2d0
+Version: 0:2.2.596.0-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 13242
+Installed-Size: 1986
 Depends: python3 (<< 3.14), python3 (>= 3.13~), python3:any
-Filename: ./python3-sr-research-pylink_2.2.183.0-1~w2d0_amd64.deb
-Size: 587144
-MD5sum: 013cc8facbaa0a12ca44772f2927160e
-SHA1: 5c91901aa7fe4ae82f2e7a70c230bdc58282add8
-SHA256: 33ab726f2fe36424bd5751c8dddb48bf5a51ea8c57acd385381273062d729ab0
+Filename: ./python3-sr-research-pylink_2.2.596.0-1~w2d0_amd64.deb
+Size: 541924
+MD5sum: 112810ed779d4f1c918a46d5159222bf
+SHA1: 6c28ba304b44bf33f4fe22f528b969fb2209db05
+SHA256: 105c07c8e9284966c82733db1779f35373128e8fe655e0444195eb8e54ee9cf7
 Section: python
 Priority: optional
-Description: None
+Homepage: https://www.sr-research.com/support
+Description: Python module for interfacing SR Research EyeLink eye trackers
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-titta
